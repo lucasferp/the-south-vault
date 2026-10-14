@@ -1,23 +1,41 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#050505">
-  <meta name="description" content="The South Vault — For the few. For the faithful. Chapter I coming soon.">
-  <title>The South Vault — Coming Soon</title>
-  <style>
-    * { box-sizing: border-box; }
-    html, body { margin: 0; width: 100%; min-height: 100%; background: #050505; }
-    body { min-height: 100svh; display: flex; justify-content: center; align-items: center; overflow: hidden; }
-    main { width: 100%; height: 100svh; display: flex; justify-content: center; align-items: center; background: #050505; }
-    img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
-    @media (max-aspect-ratio: 3/4) { img { width: 100%; height: 100%; object-fit: contain; } }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f1e8">
+<meta name="description" content="The South Vault — Chapter I · The Pact. For the few. For the faithful.">
+<title>The South Vault — Chapter I</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  background: #f5f1e8;
+  color: #171411;
+}
+main {
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.poster {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 900px) {
+  .poster {
+    width: min(100%, 1600px);
+  }
+}
+</style>
 </head>
 <body>
-  <main aria-label="The South Vault — Coming Soon">
-    <img src="hero.png" alt="The South Vault — For the few. For the faithful. Chapter I. Coming soon. Est. MMXXVI · Luxury Streetwear.">
-  </main>
+<main>
+<img class="poster" src="hero.png" alt="The South Vault — Chapter I: The Pact. Manifesto da marca.">
+</main>
 </body>
 </html>
